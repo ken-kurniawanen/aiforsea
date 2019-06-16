@@ -17,20 +17,19 @@ TLDR
 ## Usage
 1. Put TEST data and TRAIN data into folder hierarchy below:
 
-├── PREDICT.ipynb
-├── test
-│   ├── features
-│   │   ├── x*.csv
-│   └── labels
-│       └── x.csv
-├── train
-│   ├── data_dictionary.xlsx
-│   ├── features
-│   │   ├── x*.csv
-│   └── labels
-│       └── .csv
-├── train_data_adv.pkl
-└── train_data.pkl
+├── PREDICT.ipynb  
+├── test  
+│   ├── features  
+│   │   ├── x*.csv  
+│   └── labels  
+│       └── x.csv  
+├── train  
+│   ├── features    
+│   │   ├── x*.csv  
+│   └── labels  
+│       └── .csv  
+├── train_data_adv.pkl  
+└── train_data.pkl  
 
 2. Please run PREDICT.ipnyb and put the data test Path.
 
@@ -44,7 +43,7 @@ Final Model:
 - PREDICT.ipnyb 
 
 EDA and Thought process:
--  baseline.html
+- baseline.html
 - advanced.html
 
 References:
