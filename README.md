@@ -20,19 +20,19 @@ TLDR
 ├── PREDICT.ipynb  
 ├── test  
 │   ├── features  
-│   │   ├── x*.csv  
+│   │   ├── *.csv  
 │   └── labels  
-│       └── x.csv  
+│       └── *.csv  
 ├── train  
 │   ├── features    
-│   │   ├── x*.csv  
+│   │   ├── *.csv  
 │   └── labels  
-│       └── .csv  
+│       └── *.csv  
 ├── train_data_adv.pkl  
 └── train_data.pkl  
 ```
 
-2. Please run PREDICT.ipnyb and put the data test Path.
+2. Please open PREDICT.ipnyb and run all.
 
 ### Running Time Estimation
 - Feature Engineering ~20 minutes (Unoptimized Pandas bottleneck)
