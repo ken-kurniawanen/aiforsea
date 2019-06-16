@@ -1,3 +1,6 @@
 /safety
-data.pkl
+/train/features/*
+/train/labels/*
+/test/features/*
+/test/features/*
 df_dict.pkl
