@@ -2,5 +2,5 @@
 /train/features/*
 /train/labels/*
 /test/features/*
-/test/features/*
+/test/labels/*
 df_dict.pkl
