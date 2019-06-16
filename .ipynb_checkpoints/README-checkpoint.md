@@ -16,7 +16,7 @@ TLDR
 
 ## Usage
 1. Put TEST data and TRAIN data into folder hierarchy below:
-
+```
 ├── PREDICT.ipynb  
 ├── test  
 │   ├── features  
@@ -30,19 +30,21 @@ TLDR
 │       └── .csv  
 ├── train_data_adv.pkl  
 └── train_data.pkl  
+```
 
 2. Please run PREDICT.ipnyb and put the data test Path.
 
 ### Running Time Estimation
-- Feature Engineering ~20 minutes
+- Feature Engineering ~20 minutes (Unoptimized Pandas bottleneck)
 - Training ~3 minutes
-Tested on 2 core 16 GB RAM VPS
+  
+Tested on 2 Core CPU 16 GB RAM VPS
 
 ### Description
 Final Model:
 - PREDICT.ipnyb 
 
-EDA and Thought process:
+Thought process and EDA:
 - baseline.html
 - advanced.html
 
